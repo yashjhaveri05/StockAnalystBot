@@ -7,17 +7,16 @@ from tools import (
     RecommendationDataTool,
     FutureOptionsDataTool
 )
-# from tools import NewsDataTool
-# from crewai import Agent
 from dotenv import load_dotenv
 load_dotenv()
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
 import os
-gemini_api_key = os.getenv("GEMINI_API_KEY")
 
-class StockAnalysisAgents():
+# gemini_api_key = os.getenv("GEMINI_API_KEY")
+
+class StockAnalysisAgents:
     def __init__(self, ticker):
-        self.gemini = ChatGoogleGenerativeAI(model="gemini-pro", verbose=True, temperature=0.5, google_api_key=gemini_api_key)
+        # self.gemini = ChatGoogleGenerativeAI(model="gemini-pro", verbose=True, temperature=0.5, google_api_key=gemini_api_key)
         self.ticker = ticker
         self.fundamental = FundamentalDataTool(self.ticker)
         self.technical = TechnicalDataTool(self.ticker)
@@ -39,9 +38,9 @@ class StockAnalysisAgents():
                 self.fundamental.get_financials,
                 self.macro.get_macro_economic
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def technical_analyst(self):
         return Agent(
             role='Master Technical Analyst and Chartist',
@@ -51,9 +50,9 @@ class StockAnalysisAgents():
             tools=[
                 self.technical.get_data
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def news_sentiment_analyst(self):
         return Agent(
             role='Top News and Sentiment Analyst',
@@ -63,9 +62,9 @@ class StockAnalysisAgents():
             tools=[
                 self.news.get_news
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def recommendation_analyst(self):
         return Agent(
             role='Premier Recommendation Analyst',
@@ -75,9 +74,9 @@ class StockAnalysisAgents():
             tools=[
                 self.recommendation.get_recommendations
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def future_options_analyst(self):
         return Agent(
             role='Advanced Futures and Options Analyst',
@@ -88,9 +87,9 @@ class StockAnalysisAgents():
                 self.futureoptions.get_futures,
                 self.futureoptions.get_options
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def financial_analyst(self):
         return Agent(
             role='Chief Financial Analyst',
@@ -107,16 +106,16 @@ class StockAnalysisAgents():
                 # self.recommendation.get_recommendations, 
             ],
             allow_delegation=True,
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def research_analyst(self):
         return Agent(
             role='Leading Research Analyst',
             goal="""Gather, interpret, and present data effectively to astound clients with comprehensive research reports. Analyze fundamental data, news sentiment, and recommendations to deliver insightful findings.""",
             backstory="""Recognized as the top research analyst, renowned for exceptional skills in data interpretation and report generation, currently engaged with an important client to deliver outstanding research insights.""",
             verbose=True,
-            llm = self.gemini,
+            # llm=self.gemini,
             tools=[
                 # self.fundamental.get_fundamentals,
                 # self.fundamental.get_data,
@@ -126,7 +125,7 @@ class StockAnalysisAgents():
                 # self.recommendation.get_recommendations
             ]
         )
-    
+
     def investor_advisor(self):
         return Agent(
             role='Senior Investment Advisor',
@@ -146,9 +145,9 @@ class StockAnalysisAgents():
                 # self.futureoptions.get_options
             ],
             allow_delegation=True,
-            llm = self.gemini,
+            # llm=self.gemini,
         )
-    
+
     def report_writer(self):
         return Agent(
             role='Expert Financial Report Writer',
@@ -167,5 +166,5 @@ class StockAnalysisAgents():
                 # self.futureoptions.get_futures,
                 # self.futureoptions.get_options
             ],
-            llm = self.gemini,
+            # llm=self.gemini,
         )
