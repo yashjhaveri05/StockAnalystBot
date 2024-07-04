@@ -4,8 +4,11 @@ import yfinance as yf
 from crewai_tools import tool
 from crewai import Agent, Task, Crew, Process
 import requests
-
+from langchain_google_genai import ChatGoogleGenerativeAI
 load_dotenv()
+
+gemini_api_key = os.getenv("GEMINI_API_KEY")
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=gemini_api_key)
 
 # Define tools
 @tool("Get Company Fundamentals")
@@ -157,7 +160,8 @@ def fundamental_analyst():
             get_shareholders,
             get_financials,
             get_macro_economic
-        ]
+        ],
+        llm = llm
     )
 
 def technical_analyst():
@@ -168,7 +172,8 @@ def technical_analyst():
         verbose=True,
         tools=[
             get_1_year_historical_data
-        ]
+        ],
+        llm = llm
     )
 
 def news_sentiment_analyst():
@@ -179,7 +184,8 @@ def news_sentiment_analyst():
         verbose=True,
         tools=[
             get_news
-        ]
+        ],
+        llm = llm
     )
 
 def recommendation_analyst():
@@ -190,7 +196,8 @@ def recommendation_analyst():
         verbose=True,
         tools=[
             get_recommendations
-        ]
+        ],
+        llm = llm
     )
 
 def future_options_analyst():
@@ -202,7 +209,8 @@ def future_options_analyst():
         tools=[
             get_futures,
             get_options
-        ]
+        ],
+        llm = llm
     )
 
 def financial_analyst():
@@ -220,7 +228,8 @@ def financial_analyst():
             get_news,
             get_recommendations,
         ],
-        allow_delegation=True
+        allow_delegation=True,
+        llm = llm
     )
 
 def research_analyst():
@@ -236,7 +245,8 @@ def research_analyst():
             get_financials,
             get_news,
             get_recommendations
-        ]
+        ],
+        llm = llm
     )
 
 def investor_advisor():
@@ -257,7 +267,8 @@ def investor_advisor():
             get_futures,
             get_options
         ],
-        allow_delegation=True
+        allow_delegation=True,
+        llm = llm
     )
 
 def report_writer():
@@ -277,7 +288,8 @@ def report_writer():
             get_recommendations,
             get_futures,
             get_options
-        ]
+        ],
+        llm = llm
     )
 
 # Define tasks
@@ -393,8 +405,7 @@ def form_and_kickoff_crew(ticker):
     result = crew.kickoff(inputs={'ticker': ticker})
     return result
 
-# Example usage
 if __name__ == "__main__":
-    stock_ticker = "AAPL"  # Replace with user-provided stock ticker
+    stock_ticker = "AAPL"
     report = form_and_kickoff_crew(stock_ticker)
     print(report)
