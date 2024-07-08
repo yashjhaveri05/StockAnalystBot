@@ -1,0 +1,23 @@
+**Company Information**
+
+**Ticker:** AAPL
+**Industry:** Consumer Electronics
+**Sector:** Technology
+
+**Key Financial Metrics**
+
+
+| Metric | Value | Description |
+|---|---|---|
+|Trailing P/E** | 35.43 | The ratio of the company's current stock price to its earnings per share over the last 12 months. |
+|**Forward P/E** | 31.21 | The ratio of the company's current stock price to its projected earnings per share over the next 12 months.|
+|**PEG Ratio** | 3.2 | The ratio of the company's P/E ratio to its expected earnings growth rate.|
+|**Price-to-Book Ratio** | 47.10 | The ratio of a company's market value to its book value.|
+|**Trailing Annual Dividend Yield** | 0.42% | The annual dividend per share divided by the current stock price.|
+|**Trailing EPS** | $6.43 | The earnings per share over the last 12 months.|
+|**Forward EPS** | $7.30 | The projected earnings per share over the next 12 months.|
+|**Return on Assets** | 22.07% | A measure of how efficiently a company uses its assets to generate profits.|
+|**Return on Equity** | 147.25% | A measure of how efficiently a company uses its shareholders' equity to generate profits.|
+|**Gross Margin** | 45.59% | The percentage of revenue left after deducting the cost of goods sold.|
+|**Operating Margin** | 30.74% | The percentage of revenue left after deducting all operating expenses.|
+|**Net Income Margin** | 26.31% | The percentage of revenue left after deducting all expenses, including interest and taxes.|

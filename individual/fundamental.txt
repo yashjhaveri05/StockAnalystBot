@@ -1,0 +1,36 @@
+**Company Information**
+
+**Company Name:** Apple Inc.
+
+**Ticker:** AAPL
+
+**Industry:** Consumer Electronics
+
+**Sector:** Technology
+
+**Website:** http://investor.apple.com/
+
+**Fundamental Metrics**
+
+* **Trailing Price-to-Earnings (P/E) Ratio:** 35.43. This indicates that investors are willing to pay $35.43 for every $1 of earnings the company generates.
+* **Forward Price-to-Earnings (P/E) Ratio:** 31.21. This is the estimated P/E ratio for the next 12 months, based on analysts' earnings forecasts.
+* **Trailing 12-Month Price-to-Sales (P/S) Ratio:** 9.15. This shows that the company's market capitalization is 9.15 times its annual revenue.
+* **Trailing 12-Month Price-to-Book (P/B) Ratio:** 47.10. This indicates that the company's market capitalization is 47.10 times its book value.
+* **Trailing 12-Month Earnings Per Share (EPS):** $6.43. This is the company's net income divided by the number of common shares outstanding.
+* **Forward 12-Month EPS:** $7.30. This is the estimated EPS for the next 12 months, based on analysts' earnings forecasts.
+* **Trailing 12-Month Return on Equity (ROE):** 147.25%. This measures the company's profitability relative to its shareholders' equity.
+* **Trailing 12-Month Gross Profit Margin:** 45.59%. This is the percentage of revenue left after deducting the cost of goods sold.
+* **Trailing 12-Month Operating Profit Margin:** 30.74%. This is the percentage of revenue left after deducting the cost of goods sold and operating expenses.
+* **Trailing 12-Month Net Profit Margin:** 26.31%. This is the percentage of revenue left after deducting all expenses, including interest and taxes.
+
+**Footnotes:**
+
+* **Price-to-Earnings (P/E) Ratio:** Measures the value of a company's stock relative to its earnings. A higher P/E ratio indicates that investors are willing to pay more for each dollar of earnings.
+* **Price-to-Sales (P/S) Ratio:** Measures the value of a company's stock relative to its revenue. A higher P/S ratio indicates that investors are willing to pay more for each dollar of revenue.
+* **Price-to-Book (P/B) Ratio:** Measures the value of a company's stock relative to its book value, which is the value of its assets minus its liabilities. A higher P/B ratio indicates that investors are willing to pay more 
+for each dollar of book value.
+* **Earnings Per Share (EPS):** Measures the company's profitability on a per-share basis. A higher EPS indicates that the company is more profitable.
+* **Return on Equity (ROE):** Measures the company's profitability relative to its shareholders' equity. A higher ROE indicates that the company is more profitable relative to its equity.
+* **Gross Profit Margin:** Measures the percentage of revenue left after deducting the cost of goods sold. A higher gross profit margin indicates that the company is able to generate more revenue for each dollar of cost of goods sold.
+* **Operating Profit Margin:** Measures the percentage of revenue left after deducting the cost of goods sold and operating expenses. A higher operating profit margin indicates that the company is able to generate more revenue for each dollar of operating expenses.
+* **Net Profit Margin:** Measures the percentage of revenue left after deducting all expenses, including interest and taxes. A higher net profit margin indicates that the company is able to generate more revenue for each dollar of expense.

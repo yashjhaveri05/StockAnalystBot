@@ -1,0 +1,50 @@
+**Company Information**
+
+**Ticker:** NVDA
+**Company Name:** NVIDIA Corporation
+**Industry:** Semiconductors
+**Sector:** Technology
+
+**Fundamental Metrics**
+
+**Trailing P/E:** 74.97
+**Forward P/E:** 35.22
+**PEG Ratio:** 1.02
+**Trailing EPS:** $1.71
+**Forward EPS:** $3.64
+**Trailing Annual Dividend Yield:** 0.0001%
+**Profit Margin:** 53.40%
+**Gross Margin:** 75.29%
+**Operating Margin:** 64.93%
+**Return on Assets:** 49.10%
+**Return on Equity:** 115.66%
+**Debt-to-Equity Ratio:** 22.87
+**Current Ratio:** 3.53
+**Quick Ratio:** 2.88
+**Trailing 12-Month Price-to-Sales Ratio:** 39.53
+**Trailing 12-Month EV/Revenue:** 39.29
+**Trailing 12-Month EV/EBITDA:** 63.61
+**52-Week Change:** 1.98%
+**S&P 500 52-Week Change:** 0.26%
+
+**Footnotes:**
+
+* **Trailing P/E:** The ratio of the current stock price to the earnings per share over the last 12 months.
+* **Forward P/E:** The ratio of the current stock price to the estimated earnings per share for the next 12 months.
+* **PEG Ratio:** The ratio of the P/E ratio to the expected earnings growth rate.
+* **Trailing EPS:** The earnings per share over the last 12 months.
+* **Forward EPS:** The estimated earnings per share for the next 12 months.
+* **Trailing Annual Dividend Yield:** The annualized dividend yield based on the last dividend declared.
+* **Profit Margin:** The percentage of revenue that is left over after subtracting expenses.
+* **Gross Margin:** The percentage of revenue that is left over after subtracting the cost of goods sold.
+* **Operating Margin:** The percentage of revenue that is left over after subtracting the cost of goods sold and operating expenses.
+* **Return on Assets:** The percentage of return on the company's total assets.
+* **Return on Equity:** The percentage of return on the company's shareholders' equity.
+* **Debt-to-Equity Ratio:** The ratio of the company's total debt to its total equity.
+* **Current Ratio:** The ratio of the company's current assets to its current liabilities.
+* **Quick Ratio:** The ratio of the company's liquid assets to its current liabilities.
+* **Trailing 12-Month Price-to-Sales Ratio:** The ratio of the current stock price to the company's revenue over the last 12 months.
+* **Trailing 12-Month EV/Revenue:** The ratio of the company's enterprise value to its revenue over the last 12 months.
+* **Trailing 12-Month EV/EBITDA:** The ratio of the company's enterprise value to its earnings before interest, taxes, depreciation, and amortization over the last 12 months.
+* **52-Week Change:** The percentage change in the stock price over the last 52 weeks.
+* **S&P 500 52-Week Change:** The percentage change in the S&P 500 index over the last 52 weeks.

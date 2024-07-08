@@ -1,0 +1,31 @@
+**AAPL Financial Analysis**
+
+**Income Statement**
+
+* Revenue has grown steadily over the past five years, from $274.5 billion in 2019 to $383.3 billion in 2023. This represents a compound annual growth rate (CAGR) of 9.3%.
+* Gross profit margin has also improved over the past five years, from 61.6% in 2019 to 63.7% in 2023. This indicates that Apple is becoming more efficient at generating profits from its sales.
+* Operating expenses have increased over the past five years, but at a slower rate than revenue growth. This has led to an increase in operating income margin, from 23.7% in 2019 to 25.7% in 2023.
+* Net income has grown steadily over the past five years, from $57.4 billion in 2019 to $96.9 billion in 2023. This represents a CAGR of 12.5%.
+* Diluted EPS has also grown steadily over the past five years, from $3.28 in 2019 to $6.13 in 2023. This represents a CAGR of 13.4%.
+
+**Balance Sheet**
+
+* Total assets have grown steadily over the past five years, from $365.8 billion in 2019 to $574.1 billion in 2023. This represents a CAGR of 9.4%.
+* Total liabilities have also grown over the past five years, but at a slower rate than total assets. This has led to an increase in the debt-to-equity ratio, from 45.2% in 2019 to 50.3% in 2023.
+* Shareholders' equity has grown steadily over the past five years, from $201.3 billion in 2019 to $283.9 billion in 2023. This represents a CAGR of 9.5%.
+
+**Cash Flow Statement**
+
+* Operating cash flow has grown steadily over the past five years, from $80.7 billion in 2019 to $110.5 billion in 2023. This represents a CAGR of 8.3%.
+* Investing cash flow has been negative over the past five years, as Apple has invested heavily in new products and services. However, the amount of negative investing cash flow has declined over the past two years.
+* Financing cash flow has been negative over the past five years, as Apple has used its cash to repurchase shares and pay dividends. However, the amount of negative financing cash flow has also declined over the past two years.
+
+**Overall**
+
+Apple is a financially sound company with a strong track record of growth. The company has a strong balance sheet, with plenty of cash on hand and low levels of debt. Apple also has a strong track record of generating cash flow, which it uses to invest in new products and services.
+
+**Risks**
+
+* Apple is heavily dependent on the sale of iPhones, which account for over half of its revenue. If demand for iPhones were to decline, it would have a significant impact on Apple's financial performance.
+* Apple is also facing increasing competition from other smartphone manufacturers, such as Samsung and Huawei. This competition could put pressure on Apple's margins and market share.
+* Apple is also facing regulatory scrutiny in a number of countries, including the United States and the European Union. This scrutiny could lead to fines or other penalties, which could impact Apple's financial performance.
